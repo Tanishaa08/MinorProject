@@ -3,19 +3,171 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300&family=Poppins:wght@100;300;400;600;700&family=Raleway:wght@300&family=Ubuntu&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    
-    <div class="header">
+    <section class="header">
+    <nav>
         <a href="#default" class="logo">AttendEase</a>
-        <div class="header-right">
-          <a class="active" href="#home">Home</a>
-          <a href="#contact">Contact</a>
-          <a href="#about">About</a>
-          <a href="file:///C:/Users/KIIT/OneDrive/Documents/GitHub/MinorProject/loginpage.html #LogIn">LogIn</a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()" ></i>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div>
-      </div>
+        <i class="fa fa-bars" onclick="ShowMenu()"></i>
+    </nav>
+<div class="text-box">
+    <h1>Stay Accurate with our </h1>
+     <h1>Attendance Management System</h1>
+     <a href="loginpage.html#LogIn" class="hero-btn">LogIn</a>
+</div>
+</section>
+<div class="heading" id="service">
+    <h1>Service</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim cumque est nemo laborum quae dolorum assumenda eveniet explicabo voluptates in corporis, id earum aperiam totam ullam? Illum dicta odit eligendi.</p>
+
+</div>
+<div class="container">
+    <section class="about">
+        <div class="about-image">
+            <img src="images/Online-Attendance-Management-System.png" >
+        </div>
+        <div class="about-content">
+            <h2>Heading2</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, quam modi fugiat beatae delectus suscipit iste praesentium sunt maiores, similique nulla facere minus saepe quaerat veniam deleniti voluptas? Eveniet, nisi.</p>
+             <a href="" class="read-more">Read More</a>
+        </div>
+ </section>
+</div>
+<section class="Features" id="features">
+    <h1>Features</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam laborum nostrum magni quam est vitae quidem, fugiat veniam eum, soluta maiores. Et sapiente magnam minima, ex tempora voluptas libero in!</p>
+    <div class="row">
+        <div class="features-col">
+        
+            <h3>Secure</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque totam minima ex ratione similique, ab magnam, eius culpa porro eveniet esse provident est id facilis fugiat eligendi. Quaerat, labore eveniet.</p>
+
+
+        </div>
+        <div class="features-col">
+           
+            <h3>Degree</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque totam minima ex ratione similique, ab magnam, eius culpa porro eveniet esse provident est id facilis fugiat eligendi. Quaerat, labore eveniet.</p>
+
+            
+        </div>
+        <div class="features-col">
+           
+            <h3>Graduation</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque totam minima ex ratione similique, ab magnam, eius culpa porro eveniet esse provident est id facilis fugiat eligendi. Quaerat, labore eveniet.</p>
+
+            
+        </div>
+        
+    </div>
+
+</section>
+<section class="team">
+    <div class="header-teams"> 
+    <h1>Our Team</h1>
+</div>
+<div class="sub-container">
+    <div class="row-teams">
+        <img src="images/profile1.jpg"  alt="">
+        <div class="name">Aditya Maurya</div>
+        <div class="desig">Developer</div>
+        <div class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia veniam corporis hic facere ea?</div>
+        <div class="social-links">
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-github"></i></a>
+        </div>
+    </div>
+    <div class="row-teams">
+        <img src="images/profile1.jpg"  alt="">
+        <div class="name">Tanisha Verma</div>
+        <div class="desig">Developer</div>
+        <div class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia veniam corporis hic facere ea? </div>
+        <div class="social-links">
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-github"></i></a>
+        </div>
+    </div>
+    <div class="row-teams">
+        <img src="images/profile1.jpg"  alt="">
+        <div class="name">Subandhu</div>
+        <div class="desig">Developer</div>
+        <div class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia veniam corporis hic facere ea?</div>
+        <div class="social-links">
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-github"></i></a>
+        </div>
+    </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container" id="contact">
+        <div class="row">
+
+            <div class="col-lg-4">
+                <div class="col-one">
+                    <h4>AttendEase</h4>
+                    <p>Address : KIIT University,Patia,Bhubaneswar </p>
+                    <p>Contact No : <a href="tel: +91 98659****59">+91 7344567895</a></p>
+                    <p>Email : <a href="mailto:attendease@kiit.ac.in">attendease@kiit.ac.in</a></p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="col-two">
+                    <h4>Important Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#donation">Service</a></li>
+                        <li><a href="#mission-id">Feature</a></li>
+                        <li><a href="#about">Our Team</a></li>
+                      
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="col-one">
+                    <h4>Social Media</h4>
+                    <div class="social">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-youtube"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-mail"></i></a>
+                    </div>
+                    <p>Copyright &copy; 2023 | All Right Reserved</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+<script>
+    var navLinks=document.getElementById("navLinks");
+    function ShowMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
 </body>
 </html>
-
